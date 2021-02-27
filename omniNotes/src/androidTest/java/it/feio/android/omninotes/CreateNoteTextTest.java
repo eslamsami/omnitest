@@ -185,7 +185,7 @@ public class CreateNoteTextTest {
             e.printStackTrace();
         }
 
-        pressBack();
+        closeSoftKeyboard();
 
         // Added a sleep statement to match the app's execution delay.
         // The recommended way to handle such scenarios is to use Espresso idling resources:
